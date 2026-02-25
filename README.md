@@ -107,47 +107,4 @@ Joblib: For saving the preprocessor objects.
 
 Streamlit (for the app): To create an interactive web application for model inference.
 
-How to Run
-1. Clone the repository
-Bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-
-2. Set up the environment
-It is recommended to use a virtual environment.
-
-Bash
-
-# Create a virtual environment
-python -m venv venv
-
-# Activate it (on Windows)
-venv\Scripts\activate
-
-# Activate it (on macOS/Linux)
-source venv/bin/activate
-Install the required libraries:
-
-Bash
-
-pip install -r requirements.txt
-(You will need to create a requirements.txt file with the following content)
-
-pandas
-scikit-learn
-tensorflow
-matplotlib
-joblib
-streamlit
-3. Run the Jupyter Notebook (Optional)
-If you want to explore the data and retrain the models, you can run the Jupyter Notebook:
-
-Bash
-
-jupyter notebook Spotify_genre_classifier.ipynb
-Running the notebook will re-generate the model (spotify_model.h5), scaler (scaler.pkl), and label encoder (label_encoder.pkl) files.
-
-
-
-
 
